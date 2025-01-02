@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.items {
+  text-align: center;
+  text-align: left;
+}
+.items p {
+  margin: 0.5rem;
+}
+
+.todo-btn {
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.todo-btn:hover {
+  background-color: #45a049;
+}
