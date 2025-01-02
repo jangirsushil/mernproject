@@ -12,7 +12,7 @@ import "./Navbar.css";
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const dispatch = useDispatch();
-  const API_URL_V1 = import.meta.env.VITE_API_URL_V1;
+  const API_URL_V1 = "https://mernproject-hj6r.onrender.com/api/v1";
 
   const isLoggedIn = useSelector((state) => state.auth.isAuthenticated);
 

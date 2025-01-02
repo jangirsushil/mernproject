@@ -15,7 +15,7 @@ const cookieParser = require("cookie-parser");
 
 app.use(cookieParser());
 const corsOptions = {
-  origin: process.env.CLIENT_URL || "http://localhost:5173",
+  origin: "https://mernproject-hj6r.onrender.com",
   credentials: true,
 };
 app.use(cors(corsOptions));

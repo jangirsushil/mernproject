@@ -10,7 +10,7 @@ const Todo = () => {
   const [editingTaskId, setEditingTaskId] = useState(null);
   const [trigger, setTrigger] = useState(false);
 
-  const API_URL_V2 = import.meta.env.VITE_API_URL_V2;
+  const API_URL_V2 = "https://mernproject-hj6r.onrender.com/api/v2";
 
   useEffect(() => {
     const fetchTasks = async () => {
